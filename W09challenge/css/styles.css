@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+img {
+  margin: 0;
+}
+.content {
+  background-color: white;
+  width: 260px;
+  padding: 20px;
+  margin-top: -5px;
+}
+.three-col {
+  background-color: #336699;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: none;
+}
+.three-col h5,
+h6 {
+  color: white;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+.read-section,
+.views-section {
+  border-right: 1px solid white;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  text-transform: uppercase;
+}
