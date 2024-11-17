@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
     <title>Contact Us</title>
   </head>
   <body>
@@ -20,11 +25,6 @@
         </nav>
       </header>
       <div class="image-container">
-        <img
-          id="contact-img"
-          src="images/rafting37_1024.jpg"
-          alt="People enjoying white water rafting"
-        />
         <h1>Contact Us</h1>
         <p>
           We are dedicated to assisting our customers and pride ourselves on
@@ -44,9 +44,52 @@
           <div class="form-center">
             <h4>Send us a message</h4>
             <div class="contact-field"></div>
-            <h4 class="submit-button">Submit</h4>
+            <input type="submit" name="submit" value="Submit" id="submit" />
           </div>
         </div>
+      </div>
+      <div class="icons-bg">
+        <div class="icon-section">
+          <div class="left-icon flex">
+            <span class="fa-stack fa-3x">
+              <i class="fa fa-circle fa-stack-2x icon-background"></i>
+              <i class="fa fa-envelope fa-stack-1x"></i>
+            </span>
+            <br /><a href="#" class="email" target="_blank"
+              >Email:<br />wwr@wwr.com</a
+            >
+          </div>
+          <div class="middle-icon flex">
+            <span class="fa-stack fa-3x">
+              <i class="fa fa-circle fa-stack-2x icon-background"></i>
+              <i class="fa fa-phone-square fa-stack-1x"></i>
+            </span>
+            <br /><a href="#" class="phone" target="_blank"
+              >Phone:<br />801-435-5555</a
+            >
+          </div>
+          <div class="right-icon flex">
+            <span class="fa-stack fa-3x">
+              <i class="fa fa-circle fa-stack-2x icon-background"></i>
+              <i class="fa fa-address-card fa-stack-1x"></i>
+            </span>
+            <br /><a href="#" class="address" target="_blank"
+              >Address:<br />123 Fake Street<br />Springfield, OR 12345</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="google-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d49912.36889547638!2d-109.58528094210139!3d38.567801189626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sriver%20rafting%20moab!5e0!3m2!1sen!2sus!4v1731806408522!5m2!1sen!2sus"
+          width="1600"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
       <footer>
         <p>Dry Oar &copy; 2024 - Julie Jordan</p>
