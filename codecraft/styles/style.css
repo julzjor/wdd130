@@ -135,9 +135,11 @@ nav a:hover {
   margin: 0;
   grid-column: 2/3;
   grid-row: 1/2;
+  width: 100%;
 }
 .intro-right img {
   align-items: center;
+  object-fit: cover;
 }
 .left-button {
   grid-column: 1/2;
