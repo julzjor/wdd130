@@ -129,7 +129,7 @@ nav a:hover {
   color: #a28497;
 }
 .intro-left p {
-  font-size: 20px;
+  font-size: 16px;
 }
 .intro-right {
   margin: 0;
@@ -139,7 +139,8 @@ nav a:hover {
 }
 .intro-right img {
   align-items: center;
-  object-fit: cover;
+  object-fit: contain;
+  width: 100%;
 }
 .left-button {
   grid-column: 1/2;
