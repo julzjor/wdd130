@@ -114,3 +114,113 @@ nav a {
 nav a:hover {
   color: #a28497;
 }
+.intro {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.intro-left {
+  padding: 20px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.intro-left h1 {
+  font-family: "Playwrite GB S", serif;
+  font-size: 45px;
+  color: #a28497;
+}
+.intro-left p {
+  font-size: 20px;
+}
+.intro-right {
+  margin: 0;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.intro-right img {
+  align-items: center;
+}
+.left-button {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin: 0 5px 4px 0;
+}
+.right-button {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 0 0 4px 0;
+}
+.button-style {
+  padding: 20px 20px;
+  background-color: #3a2c35;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Playwrite GB S", serif;
+  font-size: 30px;
+}
+.button-style:hover {
+  color: #a28497;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 100%;
+}
+#homebg {
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 1;
+}
+.skillsBG {
+  margin-top: -25px;
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: rgba(58, 44, 53, 0.7);
+  z-index: 5;
+}
+.skills-section {
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 10;
+}
+.skills-section h2 {
+  padding-top: 40px;
+  font-family: "Playwrite GB S", serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.skills-list li {
+  color: white;
+  font-size: 20px;
+  margin: 0 100px 20px 100px;
+  line-break: 20px;
+}
+
+.skills-list ul {
+  gap: 20px;
+}
+footer {
+  padding: 20px 40px;
+  background-color: #3a2c35;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-self: center;
+  align-items: center;
+}
+.social img {
+  width: 50px;
+}
+.copy p {
+  color: #a28497;
+  font-family: "Playwrite GB S", serif;
+  font-size: 20px;
+  text-align: center;
+}
+.footer-logo {
+  text-align: right;
+}
