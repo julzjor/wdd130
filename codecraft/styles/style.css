@@ -80,10 +80,18 @@
   font-style: italic;
 }
 
+/* ----------------------------MAIN STUFF--------------------------- */
 body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, sans-serif;
+}
+.page-title h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
 }
 header {
   display: grid;
@@ -209,10 +217,36 @@ nav a:hover {
 }
 
 /* -------------------Projects Page------------------- */
+.page-title p {
+  margin: 0 3% 3% 3%;
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+}
+.projects h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+.projects p {
+  padding: 0 10px;
+}
+.projects a {
+  font-family: "Playwrite GB S", serif;
+  padding: 10px 0;
+  color: white;
+  background-color: #3a2c35;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+}
+.projects a:hover {
+  background-color: #a28497;
 }
 .project-div {
   flex: 24%;
@@ -220,11 +254,17 @@ nav a:hover {
   padding: 0 4px;
 }
 .project-box {
-  margin-top: 8px;
+  margin: 10px 10px 30px 10px;
+  padding-bottom: 0px;
+  border: #3a2c35 1px solid;
   vertical-align: middle;
 }
 .project-box img {
   width: 100%;
+  border-bottom: #a28497 1px solid;
+}
+.skills-used {
+  font-style: italic;
 }
 footer {
   padding: 20px 40px;
