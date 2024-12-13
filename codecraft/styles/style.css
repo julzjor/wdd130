@@ -286,3 +286,59 @@ footer {
 .footer-logo {
   text-align: right;
 }
+/* -------------------Contact Page------------------- */
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 50px);
+}
+.contact-img {
+  width: 50vw;
+  height: 400px;
+  object-fit: cover;
+}
+.contact-img-left {
+  z-index: 1;
+  grid-row: 1/5;
+  grid-column: 1/3;
+  padding-left: 80px;
+}
+.contact-intro {
+  grid-column: 3/7;
+  grid-row: 7/11;
+  background-color: #a28497;
+  padding: 20px;
+  z-index: 10;
+  margin: 0 80px;
+}
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #a28497;
+  padding: 80px;
+}
+.contact-intro p {
+  color: white;
+  font-size: 1.3em;
+}
+
+.contact-left {
+  grid-column: 1/2;
+}
+.contact-right {
+  grid-column: 2/3;
+}
+.contact-left h2 {
+  font-family: "Playwrite GB S", serif;
+  font-size: 50px;
+  color: white;
+}
+.contact-left h3 {
+  color: white;
+  font-size: 35px;
+}
+.contact-box-list LI {
+  color: white;
+  padding-bottom: 20px;
+}
